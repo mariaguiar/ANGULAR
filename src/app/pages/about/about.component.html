@@ -1,0 +1,31 @@
+
+<head>
+
+    <title>APP: about</title>
+  
+</head>
+  
+<body>
+
+    <div>
+        Nombre: {{ miAutor.nombre}} <br/>
+        Apellido: {{ miAutor.apellido}} <br/>
+        Edad: {{ miAutor.edad}} <br/>
+        Estudios: {{ miAutor.estudios}} <br/>
+        <hr>
+        <input type="text" [value]= "miAutor.nombre"/>Nombre del autor: 1way<br/>
+        <button (click)= "mostrar()">Enviar</button><br/>
+        
+       
+    </div>
+
+    <div>
+        <input [(ngModel)]= "miAutor.nombre"/>
+        {{miAutor.nombre}} 2way
+    </div>
+  
+</body>
+
+
+
+

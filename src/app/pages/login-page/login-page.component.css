@@ -1,0 +1,50 @@
+
+#cabecera
+{
+   background-color: black;
+   color: white;
+   font-size: large;
+   font-weight: bold;
+   text-align: center;
+   height: 50px;
+   padding-top: 10px;
+}
+
+footer
+{
+    padding-top: 500px;
+    text-align: center;
+}
+
+.nav nav-tabs
+{
+    text-align: center;
+}
+
+#foto
+{
+    float: right;
+}
+
+#texto
+{
+   font-size: medium;
+   
+}
+
+.contenedor
+{
+    margin:auto;
+    width:1300px;
+    padding:20px;
+    border:1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+img
+{
+    
+    float: right;
+    
+}
